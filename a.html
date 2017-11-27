@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>变更管理</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+</head>
+<body>
+	<div class="maindiv">
+		<!--tab页的-->
+		<div class="top_nav_tabs">
+			<ul id="myTab" class="nav nav-tabs">
+				<li class="active"><a href="#home_1" data-toggle="tab" onclick="check_Tab(1)">变更成功率</a></li>
+				<li><a href="#home_2" data-toggle="tab" onclick="check_Tab(2)">紧急变更率</a></li>
+				<li><a href="#home_3" data-toggle="tab" onclick="check_Tab(3)">变更类型统计</a></li>
+			</ul>
+		</div>
+		<!--tab页的内容-->
+		<div class="nav_tab_contens" id="nav_tab_contens">
+			<div class="tab-pane fade in active" id="home_1">
+				<div class="contens_main">
+					<div class="contens_outsourcing_overview overview">
+						<div class="overview_time">
+							2017年11月7日
+						</div>
+						<div class="overview_detail">
+							<div class="overview_detail_title">
+								<div class="title_color"></div>
+								<div class="title_attr">
+									<div>变更成功率</div>
+									<div class="wbs_value" id="wbssl">124个</div>
+								</div>
+							</div>
+							<div class="overview_detail_title">
+								<div class="title_color"></div>
+								<div class="title_attr">
+									<div>变更成功率平均值(年度)</div>
+									<div class="wbs_value" id="wbrysl">1,224个</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contens_outsourcing_overview charts ">
+						<div class="charts_detail">
+							<div class="charts_detail_title">
+								变更成功趋势率情况
+							</div>
+							<div class="charts_space"></div>
+							<div class="charts_detail_condition">
+								<lable>单位：个，%</lable>&nbsp;&nbsp;
+							</div>
+						</div>
+						<div class="space"></div>
+						<div id="container" class="charts_tubiao"></div>
+					</div>
+					<div class="table">
+						<div class="table_list">
+							<div class="table_list_title">变更成功数量</div>
+							<div class="table_list_value">
+								<div class="table_list_value_detail">241</div>
+								<div class="table_list_value_detail">275</div>
+								<div class="table_list_value_detail">246</div>
+								<div class="table_list_value_detail">298</div>
+								<div class="table_list_value_detail">254</div>
+								<div class="table_list_value_detail">236</div>
+								<div class="table_list_value_detail">246</div>
+								<div class="table_list_value_detail">222</div>
+								<div class="table_list_value_detail">333</div>
+								<div class="table_list_value_detail">444</div>
+								<div class="table_list_value_detail">555</div>
+								<div class="table_list_value_detail">456</div>
+							</div>
+						</div>
+						<div class="table_list1">
+							<div class="table_list_title">变更成功率</div>
+							<div class="table_list_value">
+								<div class="table_list_value_detail">333</div>
+								<div class="table_list_value_detail">246</div>
+								<div class="table_list_value_detail">212</div>
+								<div class="table_list_value_detail">232</div>
+								<div class="table_list_value_detail">262</div>
+								<div class="table_list_value_detail">272</div>
+								<div class="table_list_value_detail">285</div>
+								<div class="table_list_value_detail">262</div>
+								<div class="table_list_value_detail">246</div>
+								<div class="table_list_value_detail">265</div>
+								<div class="table_list_value_detail">222</div>
+								<div class="table_list_value_detail">284</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer_panel">
+						<div class="data_uptime"><label>最新数据日期：2017年11月08日</label></div>
+						<div class="space_panel"></div>
+						<div class="data_source">
+							<label>责任部门：规划与架构管理处</label>
+							<label>数据来源：信息科技局</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="home_2">
+			</div>
+			<div class="tab-pane fade" id="home_3">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
